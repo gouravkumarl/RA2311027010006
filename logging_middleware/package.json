@@ -1,0 +1,13 @@
+{
+  "name": "logging_middleware",
+  "version": "1.0.0",
+  "description": "Reusable logging middleware package",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "check": "node --check src/index.js",
+    "register": "node scripts/register.js",
+    "auth": "node scripts/auth.js"
+  },
+  "license": "MIT"
+}

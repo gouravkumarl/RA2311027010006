@@ -1,0 +1,12 @@
+{
+  "name": "vehicle_maintenance_scheduler",
+  "version": "1.0.0",
+  "description": "Vehicle maintenance scheduling microservice",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/maintenanceService.js && node --check src/httpUtils.js"
+  },
+  "license": "MIT"
+}

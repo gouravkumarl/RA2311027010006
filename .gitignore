@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.log
+coverage/
+dist/
+.DS_Store
+logging_middleware/proof1.png
+logging_middleware/proof2.png
